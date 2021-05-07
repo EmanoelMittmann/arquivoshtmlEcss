@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    font-family: serif;
+    height: 80px;
+    
+    
+
+}
+.esquerda{
+    display: flex;
+    width: 50%;
+}
+.esquerda h1{
+    margin-top: 10px;
+    margin-left: 20px;
+    font: 24px;
+    color: #000;
+    font-weight: bold;
+}
+.direita{
+    display: flex;
+    width: 50%;
+    justify-content:flex-end;
+}
+.apresentaçao{
+    background-color: olive;
+    text-align: center;
+}
+.img{
+    border-radius: 150px;
+}
+.txt1{
+    border: solid 2px #893;
+    padding: 18px;
+    margin:  20px;
+    font-size:15px;
+    font-weight: bold;    
+    position:relative;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    line-height: 20%;
+    color: olive;  
+    border-radius: 4px;
+}
+.encontrar{
+    background-color: rgb(54, 52, 52);
+    height: 400px;
+    text-align: center;
+    font-family: serif;
+    padding: 40px;
+    
+    
+}
+.encontrar h1{
+    color: #fff;
+    margin-top: 50px;
+}
+.encontrar p{
+    padding: 45px;
+    color: #fff;
+    margin-top: 20px;
+}
+.imagem{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.trabalho1{
+    text-align: center;
+    padding: 45px;
+    height: 140px;
+    margin-top: 25px;
+    
+}
+.trabalho1 h1{
+    font-display: 10px;
+}
+.trabalho2{
+    padding: 18px;
+    margin:  20px;
+    font-weight: bold;   
+  
+    
+}
+.imgwork{
+    display:flex;
+   
+}
+.works1{
+    width: 31%;
+    height: 300px;
+    padding: 10px;
+    margin-left: 13px;
+    
+}
+.works2{
+    width: 32%;
+    height: 350px;
+    padding: 10px;
+    margin-left: 13px;
+}
+.works3{
+   
+    width: 33%;
+    height: 400px;
+    padding: 10px;
+    margin-left: 13px;
+}
+.trb{
+    padding: 18px;
+    font-size:25px;
+    font-weight: bold;    
+    display:inline;  
+    margin-left: 2px;  
+}
+.trb2{
+    padding: 18px;
+    font-size:25px;
+    font-weight: bold;    
+    display:inline;  
+    margin-left: 10%;
+}
+.trb3{
+    padding: 18px;
+    font-size:25px;
+    font-weight: bold;    
+    display:inline;  
+    margin-left: 13%;
+}
+footer{
+    height: 200px;
+    background-color: rgb(54, 52, 52);
+    
+}
+footer h2{
+    color: ivory;
+    text-align: center;
+    padding:87px;
+    font-size: 16px;
+
+}
+footer a{
+    transition:all ;
+    text-decoration: none;
+}
